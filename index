@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Raimana Rataro-Tuihaa</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; color: #222; background: #f5f5f5; }
+    header { background: linear-gradient(135deg, #0077b6, #00b4d8); color: white; padding: 60px 20px; text-align: center; }
+    header h1 { font-size: 2.8rem; margin-bottom: 10px; }
+    header p { font-size: 1.2rem; opacity: 0.9; }
+
+    nav { background: white; padding: 15px 20px; display: flex; justify-content: center; gap: 25px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    nav a { text-decoration: none; color: #0077b6; font-weight: bold; }
+
+    section { max-width: 1000px; margin: 40px auto; padding: 20px; background: white; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+    h2 { font-size: 1.8rem; color: #0077b6; margin-bottom: 20px; }
+
+    .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+    .skill-box { background: #e9f5ff; padding: 15px; border-radius: 8px; border-left: 5px solid #0077b6; }
+
+    .project { margin-bottom: 25px; padding-bottom: 15px; border-bottom: 1px solid #ccc; }
+    .project h3 { color: #005f8f; margin-bottom: 8px; }
+
+    footer { text-align: center; padding: 25px; margin-top: 40px; background: #222; color: white; }
+    a.button { display: inline-block; padding: 10px 18px; background: #00b4d8; color: white; text-decoration: none; border-radius: 6px; margin-top: 10px; }
+    a.button:hover { background: #0096c7; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Raimana Rataro‑Tuihaa</h1>
+  <p>Océan – Atmosphère – Climat | Data | Modélisation | Télédection</p>
+</header>
+
+<nav>
+  <a href="#about">À propos</a>
+  <a href="#skills">Compétences</a>
+  <a href="#projects">Projets</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>À propos</h2>
+  <p>
+    Je suis diplômé du Master SOAC (Sciences de l’Océan, de l’Atmosphère et du Climat), avec des expériences chez
+    CESBIO, AKKODIS et Mercator Océan. Je travaille sur la modélisation<br/> atmosphère‑océan, l’analyse de données climatiques,
+    les services Copernicus Marine, la documentation technique et la télédétection.
+  </p>
+  <a class="button" href="CV.pdf" target="_blank">Télécharger mon CV</a>
+</section>
+
+<section id="skills">
+  <h2>Compétences</h2>
+  <div class="skills-grid">
+    <div class="skill-box"><strong>Python</strong><br>NetCDF, Pandas, API ECMWF & Copernicus, traitement scientifique</div>
+    <div class="skill-box"><strong>Modélisation</strong><br>DART, modèles atmosphère‑océan, analyse numérique</div>
+    <div class="skill-box"><strong>Données climat</strong><br>AERONET, ECMWF, Copernicus Marine, télédection</div>
+    <div class="skill-box"><strong>Web & Documentation</strong><br>Markdown, HTML/CSS, GitHub Pages</div>
+    <div class="skill-box"><strong>Outils</strong><br>Linux, Git, Jupyter, HPC</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projets & Réalisations</h2>
+
+  <div class="project">
+    <h3>Documentation interactive du modèle DART</h3>
+    <p>Conversion complète de la documentation DART (.docx → Markdown), restructuration, optimisation des liens, intégration HTML et publication sur le site de l'OMP.</p>
+    <a class="button" href="#">Voir le projet</a>
+  </div>
+
+  <div class="project">
+    <h3>Scripts Python pour AERONET & ECMWF</h3>
+    <p>Automatisation du téléchargement, parsing et transfert vers DART. Intégration dans les workflows du modèle.</p>
+    <a class="button" href="#">Voir le projet</a>
+  </div>
+
+  <div class="project">
+    <h3>Stage M2 – AKKODIS / Mercator Océan</h3>
+    <p>Manipulation de données Copernicus Marine, support utilisateur, dashboard d’analyse, optimisation de pipelines et rapports QA.</p>
+    <a class="button" href="#">Voir le projet</a>
+  </div>
+
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>📧 Email : raimana@example.com</p>
+  <p>🔗 LinkedIn : <a href="#">Mon profil</a></p>
+  <p>🐙 GitHub : <a href="#">github.com/raimana</a></p>
+</section>
+
+<footer>
+  © 2025 Raimana Rataro‑Tuihaa — Portfolio Personnel
+</footer>
+
+</body>
+</html>
