@@ -1,8 +1,0 @@
-title: "Raimana RATARO-TUIHAA — Portfolio"
-email: "ton.email@example.com"
-description: "Ingénieur en océanographie & télédétection — DART, Copernicus Marine, traitement de données."
-baseurl: ""
-url: "https://tonpseudo.github.io"
-theme: jekyll-theme-minimal
-plugins:
-  - jekyll-feed
